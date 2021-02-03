@@ -2,16 +2,6 @@
 
 > json 业务库，方便业务统一使用
 
-## 版本
-
-### 1.0.0-SNAPSHOT
-
-依赖：
-
-- Spring Boot 2.3.7.RELEASE
-- Jackson 2.11.3
-- json-path 2.4.0
-
 ## 功能
 
 - json 读写（基于 jackson 库）
@@ -20,7 +10,7 @@
 
 ## 使用
 
-## 依赖
+### 依赖
 
 ```xml
 <dependency>
@@ -114,7 +104,7 @@ public class JsonTest {
 
 ### jsonpath
 
-当我们对接某些接口时，只需要提取部分数据，此时基于 json path 的[语法](https://github.com/json-path/JsonPath#operators)进行数据提取
+当我们对接某些接口时，只需要提取部分数据，此时基于 json path 的 [语法](https://github.com/json-path/JsonPath#operators) 进行数据提取
 
 提供 JsonPath 接口处理 json path
 
@@ -306,3 +296,13 @@ public class JsonExtractorTest {
 注意：
 
 - 在 groovy 中，$ 是特殊的字符串插值变量，因此需要转义
+
+## 版本
+
+### 1.0.0.RELEASE
+
+依赖：
+
+- Spring Boot 2.3.7.RELEASE
+- Jackson 2.11.3
+- json-path 2.4.0
